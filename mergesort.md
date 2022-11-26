@@ -1,10 +1,11 @@
 [16,21,11,8,12,22] -> Merge Sort
-Görev 1: Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
-1) 16,21,11 ve 8,12,22 olarak ikiye ayrılır.
-2) 16,21,11 => 16 ve 21,11 olarak, 8,12,22 => 8 ve 12,22 olarak 2'ye ayrılır.
-3) Ardından 21,11 11,21 olarak ve 12,22 12,22 olarak aralarında sıralanır.
-4)  Ardından 16 11,21 ile birleşir ve aralarında 11,16,21 olarak sıralanır.
-5) 8 ise 12,22 ile birleşir ve aralarında 8,12,22 olarak sıralanır.
-6) Son olarak 11,16,21 ve 8,12,22 birleşir ve 8,11,12,16,21,22 olarak aralarında sıralanır.
-Görev 2: Big-O gösterimini yazınız.
+GÃ¶rev 1: YukarÄ±daki dizinin sort tÃ¼rÃ¼ne gÃ¶re aÅŸamalarÄ±nÄ± yazÄ±nÄ±z.
+1) 16,21,11 ve 8,12,22 olarak ikiye ayrÄ±lÄ±r.
+2) 16,21,11 => 16 ve 21,11 olarak, 8,12,22 => 8 ve 12,22 olarak 2'ye ayrÄ±lÄ±r.
+3) ArdÄ±ndan 21,11 11,21 olarak ve 12,22 12,22 olarak aralarÄ±nda sÄ±ralanÄ±r.
+4)  ArdÄ±ndan 16 11,21 ile birleÅŸir ve aralarÄ±nda 11,16,21 olarak sÄ±ralanÄ±r.
+5) 8 ise 12,22 ile birleÅŸir ve aralarÄ±nda 8,12,22 olarak sÄ±ralanÄ±r.
+6) Son olarak 11,16,21 ve 8,12,22 birleÅŸir ve 8,11,12,16,21,22 olarak aralarÄ±nda sÄ±ralanÄ±r.
+
+GÃ¶rev 2: Big-O gÃ¶sterimini yazÄ±nÄ±z.
 O(n*logn)
